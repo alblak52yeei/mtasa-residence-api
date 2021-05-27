@@ -3,7 +3,7 @@ A resource that allows you to get the player's country, city, region, and provid
 
 **Documentation**
 
-Getting information (Server side only):
+Getting information (Server side only and the player must be logged in):
 ```lua
   -- Export:
   exports['mtasa-residence-api']:GetPlayerCountry( player ) -- country
